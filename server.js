@@ -27,7 +27,7 @@ app.use((req, res) => {
 });
 
 // Start the server
-const port = 3000;
+const port = 400;
 app.listen(port, async () => {
   console.log(`Server is listening on port ${port}`);
   await createCollections();
